@@ -1,0 +1,98 @@
+/* RESETEO CSS */
+*{
+padding:0;
+margin:0;
+text-decoration: none;
+list-style: none;
+}
+
+/* MENU PRINCIPAL */
+
+.menuContainer{ 
+    background: white;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    background-color: coral;
+ 
+}
+
+
+
+.menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    background-color: cyan;
+} 
+
+
+
+
+/* ENCABEZADO */
+.encabezado{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    color: white;
+    background-image: url(../imagenes/blancoNegro.png);
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+/* Separadores */
+.separadores{
+    opacity: 75%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* REPRODUCTOR */
+.reproductor{
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+
+}
+input, textarea{
+    outline: none;
+}
+
+input{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 25px;
+    
+
+}
+
+.grid-contenedor-padre{
+
+
+}
+.grid-item-menu{
+
+
+}
+.grid-item-header{
+    
+}
+.grid-item-separadores{
+
+}
+.grid-item-reproductor{
+
+}
