@@ -14,7 +14,7 @@ list-style: none;
     /* margin-bottom: 10px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-large;
-    background-color: coral;
+    /* background-color: coral; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +27,7 @@ list-style: none;
     font-size: x-large;
     display: flex;
     justify-content: space-between;
-    background-color: cyan;
+    /* background-color: cyan; */
 } 
 
 
@@ -109,13 +109,13 @@ input{
     outline: 3px solid peru;
     padding: 10px;
     text-align: center;
-    background-color: black;
+    background-image: linear-gradient(to left, purple, navy);
     color: white;
 }
 
 /* class="licencia featured" */
 .licencia.featured {
-    background-color: white;
+    background-image: linear-gradient(to left, gold, white);
     color: black;
     border: 3px solid black;
     border-radius: 10px
