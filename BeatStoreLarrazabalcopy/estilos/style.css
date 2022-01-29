@@ -30,6 +30,10 @@ list-style: none;
     /* background-color: cyan; */
 } 
 
+.logoBlanco:hover{
+    transform: scale(1.5);
+}
+
 
 
 
@@ -47,6 +51,10 @@ list-style: none;
     align-items: center;
     font-size: 50px;
 }
+h1:hover{
+    transform: scale(1.5);
+}
+
 
 
 /* Separadores */
@@ -113,13 +121,19 @@ input{
     color: white;
 }
 
+.licencia:hover{
+    transform: scale(1.5);
+}
+
 /* class="licencia featured" */
 .licencia.featured {
     background-image: linear-gradient(to left, gold, white);
     color: black;
     border: 3px solid black;
-    border-radius: 10px
+    border-radius: 10px;
+    /* transform: scale(1.5); */
 }
+
 
 .licencia.featured .titulo {
     font-size: 32px;
