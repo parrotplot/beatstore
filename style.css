@@ -1,0 +1,177 @@
+/* RESETEO CSS */
+*{
+padding:0;
+margin:0;
+text-decoration: none;
+list-style: none;
+}
+
+/* MENU PRINCIPAL */
+
+.menuContainer{ 
+    background: white;
+    padding: 30px;
+    /* margin-bottom: 10px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.menu{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    background-color: cyan;
+} 
+
+
+
+
+/* ENCABEZADO */
+.encabezado{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    color: white;
+    background-image: url(../imagenes/blancoNegro.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+
+/* Separadores */
+.separadores{
+    opacity: 75%;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* REPRODUCTOR */
+.reproductor{
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+
+textarea{
+    resize: none;
+
+}
+input, textarea{
+    outline: none;
+}
+
+input{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 25px;
+    
+
+}
+
+.navbar {
+    width: 700px;
+    margin-left: 30px;
+}
+
+/* LICENCIAS */
+.seccion-licencias {
+    padding: 30px 0;
+    background-color: gray;
+}
+
+.licencias {
+    outline: 3px solid red;
+    display: grid;
+    grid-template-columns: 3fr 4fr 3fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 850px;
+    max-width: 90%;
+    margin: auto;
+}
+
+.licencia {
+    outline: 3px solid peru;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+/* class="licencia featured" */
+.licencia.featured {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px
+}
+
+.licencia.featured .titulo {
+    font-size: 32px;
+}
+
+/* class="licencia" => class="titulo" */
+.licencia .titulo {
+    outline: 3px solid yellow;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.licencia .precio {
+    outline: 3px solid purple;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+.licencia .descripcion {
+    outline: 3px solid orange;
+    font-size: 18px;
+}
+
+/* Mobile <769 */
+@media (max-width: 768px) {
+    .seccion-licencias {
+        background-color: red;
+    }
+
+    .licencias {
+        grid-template-columns: 1fr;
+    }
+    .licencia {
+        margin-bottom: 30px;
+    }
+    .menuContainer{ 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu {
+        font-size: smaller;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .menu li {
+        margin: 0 5px;
+    }
+
+    .logoBlanco {
+        margin-bottom:20px;
+    }
+    .navbar {
+        margin-left: 0px;
+    }
+}
