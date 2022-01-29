@@ -46,6 +46,7 @@ list-style: none;
     background-size: cover;
     background-position: center;
     height: 700px;
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,11 +76,11 @@ h1:hover{
 }
 
 textarea{
-    resize: none;
+    /* resize: none; */
 
 }
 input, textarea{
-    outline: none;
+    /* outline: none; */
 }
 
 input{
@@ -153,6 +154,11 @@ input{
 .licencia .descripcion {
     outline: 3px solid orange;
     font-size: 18px;
+}
+
+.container-fluid-contacto{
+    background-color: black;
+    color: white;
 }
 
 /* Mobile <769 */
